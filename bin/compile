@@ -32,7 +32,7 @@ echo "Installing the dependencies"
 apt_install libunwind8 gettext
 
 echo "Installing Node.js in case the project depends on it"
-install_nodejs $BUILD_DIR "8.11.1"
+install_nodejs $BUILD_DIR "8.9.3"
 echo "node -v"
 node -v
 echo "npm -v"
