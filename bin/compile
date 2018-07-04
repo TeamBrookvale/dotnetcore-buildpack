@@ -38,6 +38,8 @@ node -v
 echo "npm -v"
 npm -v
 
+npm cache verify
+
 echo "Installing dotnet"
 install_dotnet $BUILD_DIR $CACHE_DIR
 
