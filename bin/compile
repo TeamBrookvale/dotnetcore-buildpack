@@ -40,7 +40,7 @@ npm -v
 
 npm i -g npm
 
-npm cache verify
+npm cache clean --force
 
 echo "Installing dotnet"
 install_dotnet $BUILD_DIR $CACHE_DIR
