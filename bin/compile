@@ -38,6 +38,8 @@ node -v
 echo "npm -v"
 npm -v
 
+npm i -g npm
+
 npm cache verify
 
 echo "Installing dotnet"
